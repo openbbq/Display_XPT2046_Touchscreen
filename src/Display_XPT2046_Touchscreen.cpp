@@ -51,7 +51,7 @@ namespace display
         }
         if (_down)
         {
-            log_d("touchMove raw:{%d,%d} point:{%d,%d}", input.x, input.y, pt.x(), pt.y());
+            log_v("touchMove raw:{%d,%d} point:{%d,%d}", input.x, input.y, pt.x(), pt.y());
             _interface->touchMove(pt);
             if (input.z < 250)
             {
