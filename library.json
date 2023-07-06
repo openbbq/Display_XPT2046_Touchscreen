@@ -1,0 +1,22 @@
+{
+    "name": "Display_XPT2046_Touchscreen",
+    "version": "0.1.0",
+    "description": "Display support for XPT2046 Touchscreen.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/openbbq/Display_XPT2046_Touchscreen.git"
+    },
+    "authors": [
+        {
+            "name": "Louis DeJardin",
+            "email": "louis.dejardin@gmail.com",
+            "maintainer": true
+        }
+    ],
+    "dependencies": {
+        "paulstoffregen/XPT2046_Touchscreen": "",
+        "openbbq/Display_Interface": ""
+    },
+    "frameworks": "*",
+    "platforms": "*"
+}
